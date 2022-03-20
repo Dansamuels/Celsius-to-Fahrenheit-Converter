@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Exercise1.css">
+    <title>Exercise 1</title>
+    <script language="JavaScript" type="text/javascript" src="Exercise1.js"></script>
+</head>
+
+<body>
+    <h1>Dynamic Data Table</h1>
+    <form>
+        <p>
+            <!-- takes input for range of temperatures-->
+            <label for="minimumtemp"> Minimum Temperature:</label>
+            <input type="text" id="minimumtemperature"><br><br>
+            <label for="maximumtemp"> Maximum Temperature:</label>
+            <input type="text" id="maximumtemperature"><br><br>
+            <!-- clears inputs when user presses enter-->
+            <label for="conversion">Convert from:</label>
+            <button id="C2F" type="button" onclick="Ctof('conversion'); isMinNumber(); isMaxNumber();"> Celsius to
+                Fahrenheit</button>
+            <button id="F2C" type="button" onclick="Ftoc('conversion');isMinNumber(); isMaxNumber(); "> Fahrenheit to
+                Celsius</button>
+            <button id="clear" type="reset" onclick="ClearScreen();">Clear</button>
+        </p>
+    </form>
+    <div id="conversion"></div>
+</body>
+
+</html>

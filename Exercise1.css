@@ -1,0 +1,71 @@
+h1 {
+    text-align: left;
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+label {
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+input[type=text] {
+    width: 10%;
+    padding: 5px;
+    border: 1px solid rgb(5, 18, 138);
+    border-radius: 5px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    transition: 0.5s ease-out;
+}
+
+#clear {
+    background-color: red;
+}
+
+#clear:hover {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    transition: 0.5s ease-out;
+}
+
+tr.odd {
+    color: rgb(212, 16, 196);
+}
+
+tr.even {
+    color: rgb(108, 140, 243);
+}
+
+thead {
+    background-color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+td {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#invis {
+    display: none;
+}
+
+#vis {
+    display: inline;
+}
